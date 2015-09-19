@@ -1,0 +1,33 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:rowCount="52"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_row="5"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:text="menu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_pdr_gmap"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="51"
+        android:text="pdrgooglemap"
+        android:layout_width="wrap_content" />
+
+</GridLayout>
