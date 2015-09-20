@@ -1,4 +1,4 @@
-TP Développement Web Mobile : Création d'un jeu de taquin
+TP Développement Web Mobile : Création Pedestrian Dead Reckoning
 ===================
 
 Projet – Application Android
